@@ -1,9 +1,18 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-{{ content }}
-</div>
+<section class="docs">
+	<div class="grid">
+		<div class="unit four-fifths">
+			<article>
+				<h2>{{ page.title }}</h2>
+				<p class="meta">{{ page.date | date_to_string }}</p>
+				<div class="post">
+					{{ content }}
+				</div>
+			</article>
+		</div>
+		{% include posts.html %}
+		<div class="clear"></div>
+	</div>
+</section>

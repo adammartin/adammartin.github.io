@@ -1,0 +1,17 @@
+<div class="unit one-fifth hide-on-mobiles">
+	<aside>
+		<h4>Posts</h4>
+			<ul>
+				{% for post in site.posts %}
+				  {% assign post_url = post.url %}
+
+				  {% if post_url == page.url %}
+				    {% assign c = 'current' %}
+				  {% else %}
+				    {% assign c = '' %}
+				  {% endif %}
+				  <li class="{{ c }}"><a href="{{ post.url }}">{{ post.title }}</a></li>
+				{% endfor %}
+			</ul>
+	</aside>
+</div>
