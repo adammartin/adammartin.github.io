@@ -7,7 +7,7 @@ categories: Craftmanship
 
 I enjoy discipline in my craft.  I am an avid believer in the fail fast mentality.  A smart developer knows to use his compiler (in compiled languages) to identify fail points and correct items prior to execution. For those of us who have adopted the virtues extoled by [eXtreme Programming](http://www.extremeprogramming.org/) we have hardened that with a rigor of unit testing, refactoring, etc.
 
-As my experience has grown and I’ve seen more projects succeed and fail, budgets managed or squandered, I’ve greatly came to appreciate when quality can be taken off the platter for management worries.  As Uncle Bob is oft to say, [“The only way to go fast, is to go well.”](http://blog.8thlight.com/uncle-bob/2013/03/05/TheStartUpTrap.html)
+As my experience has grown and I’ve seen more projects succeed and fail, budgets managed or squandered, I’ve greatly come to appreciate when quality can be taken off the platter for management worries.  As Uncle Bob is oft to say, [“The only way to go fast, is to go well.”](http://blog.8thlight.com/uncle-bob/2013/03/05/TheStartUpTrap.html)
 
 I’ve taken this discipline to heart and have wrapped this into a series of preferences I enjoy to have established as part of every project.  Many of the concepts exist as part of other practices, continuous integration and XP for example.  I haven’t seen a short list expressed in the past this way, so I share with you my standard.
 
@@ -25,11 +25,11 @@ There are many other pieces and parts we can detail out, but these three foundat
 Craftsmanship Contract
 ----------------------
 
-There are discussions at nausea on the topic of team norms.  Craftsmanship Contracts are akin to team norms but instead focus on the standards the team agrees there coding practices should be held to.  They are living documents and the standards apply to every card (there are exceptions but those should be discussed by the team).  
+There are discussions ad nauseum on the topic of team norms.  Craftsmanship Contracts are akin to team norms but instead focus on the standards the team agrees there coding practices should be held to.  They are living documents and the standards apply to every card (there are exceptions but those should be discussed by the team).  
 
 These standards form an agreement between the team members on how they promise to protect leadership from quality concerns.  It may be a complex or simple document and it only matters that the team truly holds themselves accountable (accountability includes the team makes it big and visible).
 
-Often these contracts will express the norms around testing, test coverage, static analysis, coding standards, fail fast mechanisms, peer reviews, etc.  All team members ought adhere to these rules.  Senior architects or developers are not exceptions.  They are members of the team.  No member is so special or so amazing that their code is allowed to diverge from the standards.
+Often these contracts will express the norms around testing, test coverage, static analysis, coding standards, fail fast mechanisms, peer reviews, etc.  All team members ought adhere to these rules.  Senior architects and/or senior developers are not exceptions.  They are members of the team.  No member is so special or so amazing that their code is allowed to diverge from the standards.
 
 Why? Because a group of good developers, acting as a cohesive group, with high quality standards, will always out perform a group of brilliant hackers over the long haul.  Refactoring, changing business requirements, technical discovery, individual career changes, etc. all but guarantees that a cohesive group who can change code with no fear will excel for a significantly longer time frame then those who do not operate with said discipline.
 
